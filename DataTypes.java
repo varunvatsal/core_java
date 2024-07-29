@@ -1,4 +1,4 @@
-public class MyFirstClass {
+public class DataTypes {
     public static void main(String a[]) {
         // integer unsigned
         int num = 3;

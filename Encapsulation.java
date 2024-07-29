@@ -1,7 +1,11 @@
 class  Human {
     private int age;
     private String name;
-    public Human(int a, String b){
+    public Human(){ //default constructor
+        age=12;
+        name="John doe";
+    }
+    public Human(int a, String b){ // parameterized constructor
         age=a;
         name=b;
     }
@@ -22,7 +26,9 @@ class  Human {
 public class Encapsulation {
     public static void main(String[] args) {
         Human obj = new Human(20, "Neha");
+        Human obj1 = new Human(0, null);
         
         int p = obj.getAge();
+        System.out.println(p);
     }
 }
