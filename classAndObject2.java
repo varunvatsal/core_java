@@ -5,6 +5,7 @@ class Mobile {
     static String name;//this property will be shared with all the instances of this class
     static{
         name="Phone";
+        System.out.println("in static block");
     }
     public Mobile(){
         brand="";
