@@ -30,7 +30,7 @@ class iphone extends Mobile{
         System.err.println("camera: "+this.camera);
     }
 }
-
+//multiple inheritance is not allowewd in java
 public class Inheritance {
     public static void main(String[] args) {
         iphone myMobile = new iphone(100, 35000, "s10", "macOS", "10MP");
