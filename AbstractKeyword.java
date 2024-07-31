@@ -27,6 +27,5 @@ public class AbstractKeyword {
         obj.playMusic();
         // obj.Break(); ->because our object is of type car, this line will give err
         //obj.Model; obj is of type car which does not have a attribte car
-
     }
 }
