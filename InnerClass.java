@@ -1,3 +1,10 @@
+class C{
+    public void show(){
+        System.out.println("in a show");
+    }
+}
+
+
 class A{
     int age;
     public void show(){
@@ -16,6 +23,15 @@ public class InnerClass {
 
         A.B obj1 = obj.new B();
         obj1.config();
+        //anonymous inner class
+        C obj2 = new C(){
+            public void show(){
+                System.out.println("in a show, but diffrent implementation");
+            }
+        };
+        obj2.show();
+
+
     }
 }
 
