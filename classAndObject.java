@@ -56,9 +56,5 @@ public class classAndObject{
         //a variable that can store the refrence to that type of objects 
         student[0] = rahul;
         student[1] = priti;
-
-        
-
-
     }
 }
