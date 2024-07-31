@@ -31,7 +31,6 @@ public class InnerClass {
         };
         obj2.show();
 
-
     }
 }
 

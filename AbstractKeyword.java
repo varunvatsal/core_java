@@ -9,6 +9,9 @@ abstract class Car {
     public void playMusic(){
         System.out.println("play music");
     }
+    // public void Break(){
+
+    // }
 }
 
 class WagonR extends Car{
@@ -25,7 +28,7 @@ public class AbstractKeyword {
         Car obj = new WagonR();
         obj.drive();
         obj.playMusic();
-        // obj.Break(); ->because our object is of type car, this line will give err
+        // obj.Break();// ->because our object is of type car, this line will give err
         //obj.Model; obj is of type car which does not have a attribte car
     }
 }
