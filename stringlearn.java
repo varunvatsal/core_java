@@ -6,7 +6,8 @@ public class stringlearn {
         //both of them are referencing to the same variable 
         String s1 = "Navin";
         String s2 = "Navin";
-
+        System.out.println(s1);
+        System.out.println(s2);
         StringBuffer sb = new StringBuffer("varun");
         sb.append(" vatsal");
         System.out.println(sb);

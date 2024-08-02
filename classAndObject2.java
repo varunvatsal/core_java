@@ -29,8 +29,8 @@ public class classAndObject2 {
         Mobile obj = new Mobile();
         obj.brand = "samsung";
         obj.price = 12000;
-        obj.name = "galaxy 10 pro";
-        System.out.println(obj.brand+" : "+obj.price+" : "+obj.name);
+        Mobile.name = "galaxy 10 pro";
+        System.out.println(obj.brand+" : "+obj.price+" : "+Mobile.name);
         obj.show();
         Mobile.show1(obj);//static methode can be called by using class name
 

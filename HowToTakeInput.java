@@ -20,6 +20,7 @@ public class HowToTakeInput {
         temp = sc.nextInt();
         System.out.print("number that you inputed: ");
         System.out.println(temp);
+        sc.close();
 
         // bf.close();
     }
