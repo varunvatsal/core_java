@@ -28,6 +28,7 @@ public class Encapsulation {
         Human obj = new Human(20, "Neha");
         Human obj1 = new Human(0, null);
         
+        System.out.println(obj1);
         int p = obj.getAge();
         System.out.println(p);
     }
