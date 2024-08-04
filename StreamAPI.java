@@ -4,6 +4,9 @@ import java.util.List;
 
 public class StreamAPI {
     public static void main(String[] args) {
+
+        
+
         List<Integer> tempList = Arrays.asList(4, 3, 7, 6, 5, 8, 10);
         System.out.println("normal print");
         tempList.forEach(ele -> System.err.print(ele+" "));

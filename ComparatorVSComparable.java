@@ -50,8 +50,8 @@ public class ComparatorVSComparable {
         stds.add(new Student(21, "saket"));
         stds.add(new Student(27, "rohan"));
         stds.add(new Student(28, "vivek"));
-        // Collections.sort(stds, comp1);
-        Collections.sort(stds);
+        Collections.sort(stds, comp1);
+        // Collections.sort(stds);
 
         for(Student ele: stds){
             System.out.println(ele);
