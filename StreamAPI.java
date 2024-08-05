@@ -27,6 +27,5 @@ public class StreamAPI {
                     .reduce(0, (c,e) -> c+e);
 
         System.out.println(result);
-
     }
 }
